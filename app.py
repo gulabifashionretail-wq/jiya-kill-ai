@@ -13,7 +13,7 @@ try:
 except ImportError:
     genai = None
 
-st.set_page_config(page_title="JIYA & KILL Personal AI", page_icon="💗", layout="wide")
+sst.set_page_config(page_title="JIYA & KILL AI", page_icon="logo.png" if os.path.exists("logo.png") else "💗", layout="wide")
 
 PREFS_FILE = "jiya_preferences.json"
 NOTES_FILE = "jiya_notes.json"
